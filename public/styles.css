@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Gotham;
+    src: url("./Gotham.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url("./GothamLight.otf") format("opentype");
+}
+
+body {
+    background-color: #191414;
+}
+
+.card {
+    border-color : #191414;
+}
+
+.card-body {
+    background-color: #191414;
+    color:white;
+}
+
+.card-img-top {
+    cursor: pointer;
+    background-color: #191414;
+} 
+
+.wrapper {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+  
+.wrapper img {
+    transition: transform .5s ease;
+    display: block;
+}
+  
+.wrapper:hover img {
+    transform: scale(1.1);
+}
+  
+.wrapper .description {
+    position: absolute;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: Gotham;
+    color: #fff;
+    width: 100%;
+}
+
+.btn {
+    font-family : GothamLight;
+}
+
+.text-danger {
+    font-family : GothamLight !important;
+}
+
+/* #1DB954 */
